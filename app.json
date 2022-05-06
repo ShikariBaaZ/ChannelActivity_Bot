@@ -1,0 +1,37 @@
+{
+    "name": "Channel Activity Bot",
+    "description": "Channel Activity Bot for Telegram, Made by @Lawless_Updates.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "Shikari"
+    ],
+    "repository": "https://github.com/ShikariBaaZ/ChannelActivity_Bot",
+    "website": "https://t.me/Lawless_Fellas_Hub",
+    "success_url": "https://t.me/Lawless_Updates",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Bot token, Get this value from @BotFather.",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis database URL, Get this Value from redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Redis database password, Get this Value from redislabs.com.",
+            "value": ""
+        },
+        "OWNERS": {
+            "description": "User ID of users who own th bot, Differentiated by space.",
+            "value": "2044897937"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
